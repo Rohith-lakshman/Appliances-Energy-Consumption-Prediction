@@ -1,0 +1,27 @@
+LSTM Energy Forecasting – Simple Report
+
+Problem
+Buildings use a lot of electricity, and predicting how much they will use can help save money and energy. But it’s hard because temperature, humidity, and other conditions keep changing. This project tries to predict how much energy appliances will use in the future using past data.
+
+How We Did It (Method)
+
+Collected Data – Used data from sensors like temperature, humidity, wind, etc.
+
+Cleaned and Prepared Data – Changed the data into small time chunks (10 steps) and scaled the numbers.
+
+Built a Model – Created an LSTM model using PyTorch.
+
+Trained the Model – Fed the model lots of data so it could learn to predict energy use.
+
+Made it Work Online – Created a FastAPI server to give predictions, and built a Streamlit app to show results easily.
+
+What We Learned (Insights)
+
+LSTM works well for predicting energy over time.
+
+Good predictions help plan better and save power.
+
+Using many sensors gives better results.
+
+FastAPI and Streamlit make it easy to use in real systems.
+

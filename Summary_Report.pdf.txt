@@ -1,0 +1,70 @@
+Summary Report
+
+
+
+Overview of Steps Taken
+
+Explored the Data
+
+Reviewed the dataset and selected 21 important features.
+
+Features include temperature, humidity, wind speed, etc.
+
+Prepared the Data
+
+Converted data into sequences of 10 time steps for LSTM input.
+
+Scaled the data using StandardScaler and saved the scaler.
+
+Built the LSTM Model
+
+Developed a 2-layer LSTM model using PyTorch.
+
+Trained the model to predict energy usage and saved it.
+
+Created an API with FastAPI
+
+Developed a /predict endpoint to send input and get predictions.
+
+Input requires 210 values (10 time steps × 21 features).
+
+Made a Dashboard with Streamlit
+
+Built an interactive dashboard to input data and see results.
+
+Visualized predictions and actual energy usage.
+
+
+
+
+
+
+Challenges Faced
+
+Creating time-step sequences was complex.
+
+Avoiding overfitting and ensuring model accuracy.
+
+Making sure input data was consistently scaled.
+
+Linking the Streamlit UI with the API backend.
+
+Handling long input data correctly in the API.
+
+
+
+
+My Contributions
+
+Performed data cleaning and feature selection.
+
+Built and trained the LSTM model.
+
+Developed the FastAPI backend.
+
+Designed the Streamlit dashboard.
+
+Ensured code is modular and well-documented.
+
+Created README and usage instructions.
+
